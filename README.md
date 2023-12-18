@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Estate Website
+This design is inspired by the work of [JavaScript Mastery](https://www.youtube.com/@javascriptmastery). Click [here](https://youtu.be/y47gYvXchXM?si=puQrHYCULxsgoRgk) to watch the video.
 
-## Getting Started
+## Technologies
+This web page was made with the following technologies:
+- HTML5
+- CSS3
+- JavaScript
+- React
+- React Icons
+- Next.js
+- Chakra UI
+- Framer Motion
+- Vercel
 
-First, run the development server:
+## Pages
+This web page contains 7 sections: **Home**, **Search**, **Properties for sale**, **Properties for rent** and **Property details**.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Home
+#### In this home section, you will be able to see all the properties available for purchase or rent. Also, in the top right corner, you will find a dropdown menu that will allow you to access the different sections of the page.
+![preview home](src/assets/preview-home.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Search
+#### In this view, you will be able to search for the available properties on the page, applying filters according to your preferences. You will be able to filter by the number of bedrooms, bathrooms, price, and other criteria.
+![preview search](src/assets/preview-about.jpg)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Properties for sale
+#### In this view, you will have access to all the properties that are offered for sale, and you will be able to search them by a custom filter.
+![preview for sale](src/assets/preview-menu-1.jpg)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Properties for rent
+#### In this section, you will be able to see all the properties available for rent, and you will be able to filter them according to your search criteria.
+![preview for rent](src/assets/preview-awards-1.jpg)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Property details
+#### Furthermore, when you click on a property that you like, you will be redirected to another page where you can see more details about it, such as more images, a detailed description, the property type, the sale or rent status, and the amenities it offers, such as balcony, pool, air conditioning, etc.
+![preview details](src/assets/preview-contact-1.jpg)
